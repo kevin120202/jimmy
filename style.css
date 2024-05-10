@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Smythe', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 800px;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 39px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.header-caption {
+    font-size: 22.42px;
+}
+
+.ingredients {
+    color: #888;
+}
+
+.food-img {
+    font-size: 78.72px;
+    margin-right: 10px;
+}
+
+header {
+    background-image: url("images/ferks-guare-KEZdWfYD-ow-unsplash\ 1.png");
+    background-size: cover;
+    padding: 55px 45px;
+    color: white;
+}
+
+.menu-container {
+    padding: 30px 45px;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.add-to-cart-btn {
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: none;
+    border: 1px solid #887;
+    background: white;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.cart-container {
+    padding: 10px 45px;
+    /* display: none; */
+}
+
+.food-in-cart-container {
+    border-bottom: 1px solid black;
+    padding: 15px 0;
+}
+
+.order-header {
+    text-align: center;
+}
+
+.remove {
+    font-size: 16px;
+    color: #887;
+    cursor: pointer;
+}
+
+.total-price-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.food-in-cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete-order {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    background: #16DB99;
+    border: none;
+    cursor: pointer;
+}
+
+.modal {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.modal-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#consent-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+}
+
+.modal-btn {
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+    background-color: #16DB99;
+    border: none;
+}
+
+.confirmation-container {
+    width: 100%;
+    background: #ECFDF5;
+    padding: 30px 0;
+    text-align: center;
+}

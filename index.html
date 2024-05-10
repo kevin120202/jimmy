@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy's Diner</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Jimmy's Diner</h1>
+            <h3 class="header-caption">The best burgers and pizzas in town</h3>
+        </header>
+
+        <div class="menu-container">
+            <!-- <div class="food-item">
+                <p class="food-img">🍕</p>
+                <div class="description">
+                    <h3>Pizza</h3>
+                    <p class="ingredients">Pepperoni, sausage, cheese</p>
+                    <p class="price">$14</p>
+                </div>
+                <button class="add-to-cart-btn">+</button>
+            </div>
+            <div class="food-item">
+                <p class="food-img">🍔</p>
+                <div class="description">
+                    <h3>Hamburger</h3>
+                    <p>Beef, cheese, lettuce</p>
+                    <p class="price">$12</p>
+                </div>
+                <button class="add-to-cart-btn">+</button>
+            </div>
+            <div class="food-item">
+                <p class="food-img">🍺</p>
+                <div class="description">
+                    <h3>Beer</h3>
+                    <p>Grain, hops, yeast, water</p>
+                    <p class="price">$12</p>
+                </div>
+                <button class="add-to-cart-btn">+</button>
+            </div> -->
+        </div>
+
+        <div class="cart-container">
+            <h3 class="order-header">Your Order</h3>
+            <div class="food-in-cart-container">
+                <!-- <div class="food-in-cart">
+                    <h3>Pizza <span class="remove">remove</span></h3>
+                    <p class="price-in-cart">$14</p>
+                </div>
+                <div class="food-in-cart">
+                    <h3>Pizza <span class="remove">remove</span></h3>
+                    <p class="price-in-cart">$14</p>
+                </div> -->
+            </div>
+            <div class="total-price-container">
+                <h3 class="total-price-header">Total price:</h3>
+                <p class="total-price">$0</p>
+            </div>
+
+            <button class="complete-order" id="complete-order-btn">Complete Order</button>
+
+
+        </div>
+    </div>
+    <div class="modal">
+        <p class="modal-text">Enter card details</p>
+        <form id="consent-form">
+            <input type="text" name="fullName" placeholder="Enter your full name" required />
+            <input type="text" name="cardNumber" placeholder="Enter your card number" required />
+            <input type="text" pattern="\d{3}" name="email" placeholder="Enter cvv" required />
+            <button type="submit" class="modal-btn" id="pay-btn">Pay</button>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
